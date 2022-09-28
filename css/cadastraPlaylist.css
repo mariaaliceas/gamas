@@ -1,0 +1,61 @@
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .name-song{
+        color: white;
+      }
+
+      .name-album{
+        color: white;
+      }
+
+      .name-singers{
+        color: white;
+      }
+
+      .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.75rem;
+        display: inline-block;
+      }
+      .btn-primary {
+        color: #fff;
+        background-color: rgb(33, 37, 41);
+        border-color: #fff;
+      }
+
+      .btn-primary:hover {
+        color: black;
+        background-color: orange;
+        border-color: orange;
+      }
+      
+
+
+
+    @media (prefers-color-scheme: dark)  {
+      body {
+        background: rgb(33, 37, 41);
+      }
+    }
