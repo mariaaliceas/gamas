@@ -1,4 +1,4 @@
-.bi {
+  .bi {
     vertical-align: -.125em;
     fill: currentColor;
   }
@@ -38,6 +38,8 @@
     flex: 1 1 auto;
     padding: 1.75rem;
     display: inline-block;
+    height: auto;
+    width: auto;
   }
   .btn-primary {
     color: #fff;
@@ -50,12 +52,10 @@
     background-color: orange;
     border-color: orange;
   }
-  
 
 
-
-@media (prefers-color-scheme: dark)  {
-  body {
+body {
     background: rgb(33, 37, 41);
+    align-items: flex-start;
   }
-}
+
