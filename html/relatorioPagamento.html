@@ -15,7 +15,7 @@
       <!-- Bootstrap -->
     <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet">
       <!-- Estilo customizado especifico dessa página -->
-    <link href="../css/pesquisar.css" rel="stylesheet">
+    <link href="../css/relatorio.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="../img/logo.svg" />
@@ -44,7 +44,7 @@
                 </li>
                 <li>
                   <!-- Link para a página pesquisar -->
-                  <a href="#" class="nav-link text-secondary">
+                  <a href="#" class="nav-link text-white">
                     <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                       <ellipse style="stroke:orange; fill: none; fill-opacity: 0;" cx="6.422" cy="6.087" rx="4.79" ry="4.801"/>
                       <line style="fill:orange; stroke:orange;" x1="9.678" y1="9.726" x2="14.632" y2="14.659"/>
@@ -68,20 +68,32 @@
 
       <main>
 
-        <div class="px-3 py-2 border-bottom mb-3">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Pesquisar globalmente" aria-label="Search">
-            </form>
-          </div>
+        <center>
+
+        <h3 class="font-monospace">Relatório Pagamento do Artista </h3>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Selecione um mês
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Janeiro</a></li>
+            <li><a class="dropdown-item" href="#">Fevereiro</a></li>
+            <li><a class="dropdown-item" href="#">Março</a></li>
+            <li><a class="dropdown-item" href="#">Abril</a></li>
+            <li><a class="dropdown-item" href="#">Maio</a></li>
+            <li><a class="dropdown-item" href="#">Junho</a></li>
+            <li><a class="dropdown-item" href="#">Julho</a></li>
+            <li><a class="dropdown-item" href="#">Agosto</a></li>
+            <li><a class="dropdown-item" href="#">Setembro</a></li>
+            <li><a class="dropdown-item" href="#">Outubro</a></li>
+            <li><a class="dropdown-item" href="#">Novembro</a></li>
+            <li><a class="dropdown-item" href="#">Dezembro</a></li>
+          </ul>
         </div>
-        <div class="px-3 py-2 border-bottom mb-3">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Pesquisar pelos meus gostos" aria-label="Search">
-            </form>
-          </div>
-        </div>
+
+        </center>
 
      </main>
 
