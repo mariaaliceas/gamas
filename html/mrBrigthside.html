@@ -1,7 +1,3 @@
-<!-- Referencias: https://developer.mozilla.org/pt-BR/docs/Web/SVG/Element/symbol 
-                  https://boxy-svg.com/app-->
-
-
 <!doctype html>
 <html lang="pt-br">
 
@@ -9,18 +5,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="Samuel Bispo">
+  <meta name="author" content="Maria Alice">
   <title>GaMaS - Web Player</title>
   <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/pesquisar.css" rel="stylesheet">
   <link rel="icon" href="../img/logo.svg" />
 </head>
+
 <body>
   <header>
     <div class="px-3 py-2 text-bg-dark">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <!-- Define o título da página, acompanhado de ícone -->
           <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="bi me-2 bi-x-diamond-fill" role="img" width="40" height="32"
               fill="currentColor" viewBox="0 0 16 16">
@@ -30,11 +26,9 @@
             </svg>
             <h1 class="font-monospace">GaMaS</h1>
           </a>
-          <!-- Lista de páginas principais -->
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
             <li>
-              <!-- Link para a página inicial -->
-              <a href="#" class="nav-link text-secondary">
+              <a href="home.html" class="nav-link text-secondary">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16">
                   <path
                     d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
@@ -44,8 +38,7 @@
               </a>
             </li>
             <li>
-              <!-- Link para a página pesquisar -->
-              <a href="#" class="nav-link text-white">
+              <a href="pesquisar.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16"
                   xmlns="http://www.w3.org/2000/svg">
                   <ellipse style="stroke:orange; fill: none; fill-opacity: 0;" cx="6.422" cy="6.087" rx="4.79"
@@ -56,7 +49,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
+              <a href="perfilUsuario.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="orange" />
                   <path fill-rule="evenodd"
@@ -76,11 +69,11 @@
   <main>
     <div class="container p-5 my-5 bg-dark text-white">
       <div class="container">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/pt/e/e3/Hot_Fuss.jpg" width="100"  alt="Card image">
+        <iframe src="https://giphy.com/embed/9SJaONs482vvfqp3z9" width="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/insta-feed-scroll-9SJaONs482vvfqp3z9"></a></p>
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
           <li>
-            <a href="#" class="nav-link text-secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+            <a href="doIWannaKnow.html" class="nav-link text-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                 class="bi bi-skip-backward-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                 <path
@@ -90,7 +83,7 @@
           </li>
           <li>
             <a href="#" class="nav-link text-secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                 class="bi bi-pause-circle-fill" viewBox="0 0 16 16">
                 <path
                   d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5zm3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5z" />
@@ -98,8 +91,8 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+            <a href="runSnowPatrol.html" class="nav-link text-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                 class="bi bi-skip-forward-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                 <path
@@ -108,21 +101,21 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-heart"
-                viewBox="0 0 16 16">
-                <path
-                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-              </svg>
+            <a href="#" class="nav-link text-secondary" onclick="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg> 
             </a>
-          </li>
+        </li>
         </ul>
         <div class="progress">
           <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10" aria-valuemin="10"
             fill="currentColor" aria-valuemax="10" style="width: 60%">
             <span class="sr-only"></span>
           </div>
-        </div>
+        </div><br>
         <h4 class="card-title">Mr. Brightside</h4>
         <p class="card-text">The Killers</p>
       </div>

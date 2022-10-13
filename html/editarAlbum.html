@@ -7,25 +7,17 @@
   <meta name="description" content="">
   <meta name="author" content="Maria Alice">
   <title>GaMaS - Web Player</title>
-
-  <!-- Arquivos CSS -->
-  <!-- Bootstrap -->
   <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Estilo customizado especifico dessa página -->
   <link href="../css/manterMusica.css" rel="stylesheet">
-
-  <!-- Favicon -->
   <link rel="icon" href="../img/logo.svg" />
 
 </head>
 
 <body>
-  <!-- Define o cabeçalho -->
   <header>
     <div class="px-3 py-2 text-bg-dark">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <!-- Define o título da página, acompanhado de ícone -->
           <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="bi me-2 bi-x-diamond-fill" role="img" width="40" height="32"
               fill="currentColor" viewBox="0 0 16 16">
@@ -35,11 +27,9 @@
             </svg>
             <h1 class="font-monospace">GaMaS</h1>
           </a>
-          <!-- Lista de páginas principais -->
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
             <li>
-              <!-- Link para a página inicial -->
-              <a href="#" class="nav-link text-white">
+              <a href="homeArtista.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16">
                   <path
                     d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
@@ -49,7 +39,6 @@
               </a>
             </li>
             <li>
-              <!-- Link para a página pesquisar -->
               <a href="#" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 16 16"
                   xmlns="http://www.w3.org/2000/svg">
@@ -104,23 +93,23 @@
           </a>
         </li>
       </ul><br>
-      <p>Insira uma capa para o álbum</p>
-      <h1>Prévia nome do álbum</h1>
+      <p>Edite a capa do álbum</p>
+      <h1>Edite nome do álbum</h1>
       <p>Este nome será utilizado na pesquisa e visualização pelos usuários</p>
       <div class="px-3 py-2 border-bottom mb-3">
         <div class="container d-flex flex-wrap justify-content-center">
           <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
             <p class="name-song">Nome</p>
-            <input type="search" class="form-control" placeholder="Insira o nome do álbum" aria-label="Search">
+            <input type="search" class="form-control" placeholder="Edite o nome do álbum" aria-label="Search">
           </form>
           <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
             <p class="name-album">Músicas</p>
             <input type="search" class="form-control"
-              placeholder="Digite o nome das músicas, em ordem e separadas por vírgulas" aria-label="Search">
+              placeholder="Edite o nome das músicas, em ordem e separadas por vírgulas" aria-label="Search">
           </form>
           <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
             <p>Artistas envolvidos</p>
-            <input type="search" class="form-control" placeholder="Insira os colaboradores" aria-label="Search">
+            <input type="search" class="form-control" placeholder="Edite os colaboradores" aria-label="Search">
           </form>
         </div>
         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
@@ -136,11 +125,17 @@
           </li>
         </ul>
         <center><button type="file" class="btn btn-light">Upload do álbum em um arquivo</button></center>
+    </div>
+    <button type="button" class="btn btn-outline-warning"><a href="albunsCadastrados.html"
+            class="nav-link text-white">Salvar alterações</a></button>
+    <button type="button" class="btn btn-outline-secondary"><a href="albunsCadastrados.html"
+            class="nav-link text-white">Cancelar</a></button><br>
+    <div class="px-3 py-2 border-bottom mb-3">
+        <button type="button" class="btn btn-outline-danger"><a href="albunsCadastrados.html"
+                class="nav-link text-white">Excluir álbum</a></button>
+    </div>
       </div>
-      <button type="button" class="btn btn-outline-warning"><a href="homeArtista.html"
-        class="nav-link text-white">Cadastrar Álbum</a></button>
-    <button type="button" class="btn btn-outline-secondary"><a href="homeArtista.html"
-        class="nav-link text-white">Cancelar</a></button>
+    
 
     </div>
 
